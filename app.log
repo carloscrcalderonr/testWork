@@ -1,0 +1,5 @@
+2023-07-31 20:40:04,954 - services.logger - INFO - Request: GET /contact/44601/sync/ - Payload: None
+2023-07-31 20:40:22,527 - services.logger - INFO - Request: POST /hubspot/contact/ - Payload: {'company': 'jaja', 'email': 'jaja@gmail.com', 'firstname': 'jaja', 'lastname': 'jaja', 'phone': 'jaja', 'website': 'jaja'}
+2023-07-31 20:40:23,016 - services.logger - INFO - Response: {'status': 'error', 'message': 'Contact already exists. Existing ID: 44601', 'correlationId': 'f25f207a-e634-4b79-837c-77b728f20ee9', 'category': 'CONFLICT'}
+2023-07-31 20:50:56,829 - services.logger - INFO - Request: POST /hubspot/contact/ - Payload: {'company': 'jaja', 'email': 'jaja@gmail.com', 'firstname': 'jaja', 'lastname': 'jaja', 'phone': 'jaja', 'website': 'jaja'}
+2023-07-31 20:50:57,431 - services.logger - INFO - Response: {'status': 'error', 'message': 'Contact already exists. Existing ID: 44601', 'correlationId': '05d2b426-927f-46b5-a9a6-a2640e60710f', 'category': 'CONFLICT'}
